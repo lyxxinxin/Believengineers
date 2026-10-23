@@ -20,6 +20,7 @@ The system uses AI-powered pose estimation to identify body landmarks, including
 Together, these tools enable real-time, webcam-based movement measurement without specialised motion-capture equipment.
 
 4. Experiments and Results
+
 The prototype was tested under different recording conditions to investigate its performance. These included increasing the distance between the user and webcam, reducing lighting levels, and changing laptop positioning. The system’s angle measurements were also compared with reference measurements to assess accuracy. Testing showed that the system could measure arm angles and detect potential trunk leaning at greater distances and under dimmer lighting, while stable laptop positioning was important for reducing inaccurate measurements.
 
 5. Limitations
@@ -27,6 +28,7 @@ The prototype was tested under different recording conditions to investigate its
 Despite working at further distances and in dimmer lighting, proper laptop alignment is required for reliable calculated measurements. The 5° trunk-leaning threshold is a predefined experimental setting rather than a clinically validated standard. Additionally, the prototype does not automatically store measurements or establish clinical recovery; users must record their results manually if they wish to compare progress over time. Therefore, RehabSense is an exploratory prototype and is not intended to replace professional rehabilitation assessment.
 
 6. How to Run the Project
+   
 Step 1: Install Python and the required libraries listed in Requirements
 Step 2: Run the program using the python code under rehab
 Step 3: Allow access to your laptop webcam to observe real-time arm elevation and trunk inclination measurements
